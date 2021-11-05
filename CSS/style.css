@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.section {
+  display: flex;
+
+  width: 1280px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+.summary {
+  display: flex;
+}
+
+/* Summary left */
+
+.summary-left {
+  width: 370px;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-rigth {
+  width: 910px;
+}
