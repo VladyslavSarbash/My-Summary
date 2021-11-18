@@ -11,9 +11,13 @@ const listItem = dataArray
   .map((i) => {
     return `<li> 
     <p><b>${i.projectName.titleName}:</b> ${i.projectName.name}</p> 
-    <p class="project-link">${i.projectLink.titleName}: <a href="${
+    <p class="project-link">${i.projectLink.titleName}: 
+    <a href="${
       i.projectLink.dataLink.link
-    }">${i.projectLink.dataLink.name}</a> </p>
+    }" target="_blank" rel="noreferrer noopener">
+    ${i.projectLink.dataLink.name}
+    </a> 
+    </p>
     <p>${i.technologies.titleName}: ${i.technologies.tech
       .map((i) => {
         return `${i}`;
