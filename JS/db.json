@@ -1,6 +1,6 @@
 {
   "summaryLeft": {
-    "myPhoto": "https://VladyslavSarbash.github.io/my-Summary/img/my-photo.png",
+    "myPhoto": "../img/my-photo.png",
     "firstList": {
       "titleName": "contacts",
       "tel": {
