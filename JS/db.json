@@ -1,31 +1,47 @@
 {
   "summaryLeft": {
-    "myPhoto": "../img/myPhoto.png",
+    "myPhoto": "`/img/myPhoto.png",
     "firstList": {
       "titleName": "contacts",
       "tel": {
         "number": "+380988495032",
-        "icon": "../img/SVG/symbol-defs.svg#icon-phone"
+        "icon": "/img/SVG/symbol-defs.svg#icon-phone"
       },
       "email": {
         "address": "sarbash.vladyslav@gmail.com",
-        "icon": "../img/SVG/symbol-defs.svg#icon-mail"
+        "icon": "/img/SVG/symbol-defs.svg#icon-mail"
       },
       "links": [
         {
           "link": "https://github.com/VladyslavSarbash",
           "linkName": "GitHub",
-          "icon": "../img/SVG/symbol-defs.svg#icon-github"
+          "icon": "/img/SVG/symbol-defs.svg#icon-github"
         }
       ]
     },
     "secondList": {
       "titleName": "technical skills",
-      "arrayData": ["HTML", "CSS", "JS", "React", "Redux"]
+      "arrayData": [
+        "HTML5/CSS3",
+        "JavaScript ES6+",
+        "React.js",
+        "React router",
+        "Redux",
+        "GIT",
+        "REST API",
+        "NPM"
+      ]
     },
     "thirdList": {
       "titleName": "soft skills",
-      "arrayData": ["Responsibility", "Proactive", "Teamwork"]
+      "arrayData": [
+        "Responsibility",
+        "Proactive",
+        "Teamwork",
+        "Stress tolerance",
+        "Communicable",
+        "Flexibility"
+      ]
     },
     "fourthList": {
       "titleName": "languages",
@@ -42,7 +58,7 @@
     "specialty": "Front-End Developer",
     "firstItem": {
       "titleName": "goal",
-      "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit mollitia error quas unde labore nulla velit libero sed omnis vel, obcaecati iste sit dolores saepe fugiat. Laborum hic similique molestiae maiores repellendus omnis necessitatibus optio possimus, quo distinctio ea odio fuga veritatis nemo sint voluptatum veniam cupiditate exercitationem nesciunt tempore."
+      "text": "I am looking for an interesting front-end developer job in which I can develop my skills to a higher level, which will help me work on more complex and interesting tasks with my team."
     },
     "secondItem": {
       "titleName": "Project experience",
@@ -111,13 +127,13 @@
       "titleName": "Education",
       "dataArray": [
         {
-          "institutionName": "PGTU",
-          "profession": "Finanse",
-          "yearsOfStudy": "2012-2018"
+          "institutionName": "IT School GoIT",
+          "profession": "Full-stack developer (online, min 20 hours per week)",
+          "yearsOfStudy": "Febryary 2021 - 2022"
         },
         {
-          "institutionName": "PGTU",
-          "profession": "Finanse",
+          "institutionName": "State Higher Education Institution 'Pryazovskyi State Techical University'",
+          "profession": "Finanse, Banking and Insurance",
           "yearsOfStudy": "2012-2018"
         }
       ]
