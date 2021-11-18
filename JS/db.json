@@ -5,17 +5,17 @@
       "titleName": "contacts",
       "tel": {
         "number": "+380988495032",
-        "icon": "/img/svg/symbol-defs.svg#icon-phone"
+        "icon": "../img/svg/symbol-defs.svg#icon-phone"
       },
       "email": {
         "address": "sarbash.vladyslav@gmail.com",
-        "icon": "/img/svg/symbol-defs.svg#icon-mail"
+        "icon": "../img/svg/symbol-defs.svg#icon-mail"
       },
       "links": [
         {
           "link": "https://github.com/VladyslavSarbash",
           "linkName": "GitHub",
-          "icon": "/img/svg/symbol-defs.svg#icon-github"
+          "icon": "../img/svg/symbol-defs.svg#icon-github"
         }
       ]
     },
