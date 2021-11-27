@@ -28,6 +28,7 @@
         "React.js",
         "React router",
         "Redux",
+        "Redux Toolkit",
         "GIT",
         "REST API",
         "NPM"
@@ -67,29 +68,35 @@
         {
           "projectName": {
             "titleName": "Project name",
-            "name": "nsjbgjhdfhfghgfsd"
+            "name": "The Donut King"
           },
           "projectLink": {
             "titleName": "Project link",
-            "dataLink": { "name": "GitHub", "link": "sfdhfd" }
+            "dataLink": {
+              "name": "Click me!",
+              "link": "https://vitalyyp.github.io/the-donut-king-team-project/#anchor4"
+            }
           },
           "technologies": {
             "titleName": "Technologies",
-            "tech": ["HTML", "CSS", "JS"]
+            "tech": ["HTML", "CSS"]
           },
           "aboutProject": {
             "titleName": "About project",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, harum doloremque corrupti iste voluptates molestiae itaque earum ea unde amet quidem aspernatur ipsa praesentium inventore!"
+            "text": "The application is designed for people who love donuts and want to get acquainted with the art of making them, as well as take part in the tasting of products."
           }
         },
         {
           "projectName": {
             "titleName": "Project name",
-            "name": "nsjbgjhdfhfghgfsd"
+            "name": "Event Booster"
           },
           "projectLink": {
             "titleName": "Project link",
-            "dataLink": { "name": "GitHub", "link": "sfdhfd" }
+            "dataLink": {
+              "name": "Click me!",
+              "link": "https://kashnykovanton.github.io/project-event-booster/#"
+            }
           },
           "technologies": {
             "titleName": "Technologies",
@@ -97,32 +104,14 @@
           },
           "aboutProject": {
             "titleName": "About project",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, harum doloremque corrupti iste voluptates molestiae itaque earum ea unde amet quidem aspernatur ipsa praesentium inventore!"
-          }
-        },
-        {
-          "projectName": {
-            "titleName": "Project name",
-            "name": "nsjbgjhdfhfghgfsd"
-          },
-          "projectLink": {
-            "titleName": "Project link",
-            "dataLink": { "name": "GitHub", "link": "sfdhfd" }
-          },
-          "technologies": {
-            "titleName": "Technologies",
-            "tech": ["HTML", "CSS", "JS"]
-          },
-          "aboutProject": {
-            "titleName": "About project",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, harum doloremque corrupti iste voluptates molestiae itaque earum ea unde amet quidem aspernatur ipsa praesentium inventore!"
+            "text": "The application was created to help the user find the nearest musical events, as well as offer assistance in buying tickets."
           }
         }
       ]
     },
     "thirdList": {
       "titleName": "Work experience",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur libero dolores quasi error quod eligendi odio quas cum eaque sapiente. Quae aspernatur tempore quos, vero totam incidunt repellendus, alias sit, laudantium similique culpa nostrum suscipit ipsa voluptatibus aperiam hic? Eveniet id fugit nam quibusdam eum eius omnis vero labore excepturi, aut dolore quod rem provident voluptatem harum tempore magni earum iste repellat soluta possimus! Quasi, reprehenderit! Ut cupiditate aliquam laborum ipsum neque impedit autem fugiat. Molestias, assumenda! Repudiandae sunt quas id animi quae quos magni at hic perferendis distinctio laborum obcaecati sapiente accusamus nesciunt, ipsa eius ea error iure repellat. Hic dolorum ea explicabo a, sint at quidem esse! Praesentium sunt laboriosam unde sit delectus, vel voluptatum aliquid labore commodi voluptatibus illum, quae dolorem excepturi temporibus, distinctio alias qui nostrum voluptas? Ipsa placeat modi quos? Quos harum numquam mollitia eligendi nulla ullam animi consequuntur facilis magni! Facere obcaecati quaerat excepturi, facilis blanditiis nam pariatur quibusdam explicabo eius, aliquid, cum doloribus? Dolore et repellat qui iure perspiciatis optio aperiam esse quasi facilis expedita, natus dolores blanditiis quas corporis ipsa maxime enim, nam quae obcaecati, sit voluptas dignissimos ipsam. Exercitationem quibusdam, quas doloribus impedit beatae ipsa quasi facilis, porro voluptate vel magnam!"
+      "text": "From 2018 to 2020 he worked in the field of heavy industry as ''Operator of a Continuous Casting Machine''. My responsibilities included the correct cutting of metal with subsequent marking of steel, keeping records of metal cutting, tracking high-precision equipment, troubleshooting, and in case of critical situations, make lightning-fast decisions to prevent stopping the production process."
     },
     "fourthList": {
       "titleName": "Education",
