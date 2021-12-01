@@ -187,6 +187,7 @@ a:hover > .icon {
 }
 
 .summary-right__title {
+  margin-bottom: 5px;
   color: var(--summary-right-title-color);
 }
 
@@ -213,6 +214,20 @@ a:hover > .icon {
 .project-link > a:hover,
 .project-link > a:focus {
   border: 1px var(--main-color) solid;
+}
+
+.summary-right_third_item li {
+  display: flex;
+  /* list-style: none; */
+  margin-left: 40px;
+}
+
+.summary-right_third_item li::before {
+  /* list-style: outside; */
+  content: "\2022";
+  color: var(--circle-li-item);
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 .summary-right_fourth_item > ul > li:not(:last-child) {

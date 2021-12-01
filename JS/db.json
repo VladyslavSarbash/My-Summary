@@ -13,9 +13,19 @@
       },
       "links": [
         {
+          "link": "https://goo.gl/maps/hbU8LqYwfpgasYv36",
+          "linkName": "City of Mariupol",
+          "icon": "../img/svg/symbol-defs.svg#icon-geo"
+        },
+        {
           "link": "https://github.com/VladyslavSarbash",
           "linkName": "GitHub",
           "icon": "../img/svg/symbol-defs.svg#icon-github"
+        },
+        {
+          "link": "https://linkedin.com/in/vladyslav-sarbash-752039227",
+          "linkName": "LinkedIn",
+          "icon": "../img/svg/symbol-defs.svg#icon-linkenin"
         }
       ]
     },
@@ -67,22 +77,18 @@
       "dataArray": [
         {
           "projectName": {
-            "titleName": "Project name",
             "name": "The Donut King"
           },
           "projectLink": {
-            "titleName": "Project link",
             "dataLink": {
               "name": "Click me!",
               "link": "https://vitalyyp.github.io/the-donut-king-team-project/#anchor4"
             }
           },
           "technologies": {
-            "titleName": "Technologies",
             "tech": ["HTML", "CSS"]
           },
           "aboutProject": {
-            "titleName": "About project",
             "text": "The application is designed for people who love donuts and want to get acquainted with the art of making them, as well as take part in the tasting of products."
           }
         },
@@ -111,7 +117,19 @@
     },
     "thirdList": {
       "titleName": "Work experience",
-      "text": "From 2018 to 2020 he worked in the field of heavy industry as ''Operator of a Continuous Casting Machine''. My responsibilities included the correct cutting of metal with subsequent marking of steel, keeping records of metal cutting, tracking high-precision equipment, troubleshooting, and in case of critical situations, make lightning-fast decisions to prevent stopping the production process."
+      "text": [
+        {
+          "years": "2018 - 2020",
+          "position": "Operator of a Continuous Casting Machine",
+          "responsibilities": [
+            "the correct cutting of metal with subsequent marking of steel",
+            "keeping records of metal cutting",
+            "tracking high-precision equipment",
+            "troubleshooting",
+            "make lightning-fast decisions to prevent stopping the production process"
+          ]
+        }
+      ]
     },
     "fourthList": {
       "titleName": "Education",
@@ -119,12 +137,12 @@
         {
           "institutionName": "IT School GoIT",
           "profession": "Full-stack developer (online, min 20 hours per week)",
-          "yearsOfStudy": "Febryary 2021 - 2022"
+          "yearsOfStudy": "February 2021 - 2022"
         },
         {
           "institutionName": "State Higher Education Institution 'Pryazovskyi State Techical University'",
-          "profession": "Finanse, Banking and Insurance",
-          "yearsOfStudy": "2012-2018"
+          "profession": "Finance, Banking and Insurance",
+          "yearsOfStudy": "2012 - 2018"
         }
       ]
     }

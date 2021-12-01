@@ -10,20 +10,20 @@ secondItemTitle.classList.add("summary-right__title");
 const listItem = dataArray
   .map((i) => {
     return `<li> 
-    <p><b>${i.projectName.titleName}:</b> ${i.projectName.name}</p> 
-    <p class="project-link">${i.projectLink.titleName}: 
+    <p><b>${i.projectName.name}</b></p> 
+    <p class="project-link"> 
     <a href="${
       i.projectLink.dataLink.link
     }" target="_blank" rel="noreferrer noopener">
     ${i.projectLink.dataLink.name}
     </a> 
     </p>
-    <p>${i.technologies.titleName}: ${i.technologies.tech
+    <p>${i.technologies.tech
       .map((i) => {
         return `${i}`;
       })
       .join(" - ")}</p>
-    <p>${i.aboutProject.titleName}: ${i.aboutProject.text}</p>
+    <p>${i.aboutProject.text}</p>
     </li>`;
   })
   .join("");

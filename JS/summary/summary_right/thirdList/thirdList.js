@@ -8,8 +8,21 @@ const thirdListTitle = document.createElement("h2");
 thirdListTitle.textContent = `${titleName}:`.toUpperCase();
 thirdListTitle.classList.add("summary-right__title");
 
-const thirdListText = document.createElement("p");
-thirdListText.textContent = `${text}`;
+const thirdListInfo = text
+  .map(({ years, position, responsibilities }) => {
+    return `
+  <p><b>${years}</b></p>
+  <p>${position}</p>
+  <ul>
+    ${responsibilities
+      .map((i) => {
+        return `<li>${i}</li>`;
+      })
+      .join("")}
+  </ul>
+  `;
+  })
+  .join("");
 
 thirdListRef.prepend(thirdListTitle);
-thirdListRef.append(thirdListText);
+thirdListRef.insertAdjacentHTML("beforeend", thirdListInfo);
